@@ -23,7 +23,7 @@ export default function Header()
                   
                   
                     setMode({bodyMode:'lightbody',elementMode:'lightElement'})
-                    
+                    document.getElementsByTagName('body')[0].style.background = 'hsl(0,0%, 98%)';
                   
                  }
             

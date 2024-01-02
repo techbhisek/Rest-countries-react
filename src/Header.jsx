@@ -5,6 +5,7 @@ import { Darkmodecontext } from "./App";
 
 export default function Header()
 {
+  document.getElementsByTagName('root')[0].style.background = 'hsl(207, 26%, 17%)';
     let {mode,setMode} = useContext(Darkmodecontext)
 
     return (
@@ -17,6 +18,7 @@ export default function Header()
                  
                     setMode({bodyMode:'darkbody',elementMode:'darkElement'})
                     document.getElementsByTagName('body')[0].style.background = 'hsl(207, 26%, 17%)';
+                    
                  }
                  else{
                   

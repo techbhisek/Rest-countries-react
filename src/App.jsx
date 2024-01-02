@@ -6,7 +6,7 @@ import { createContext } from "react"
 import  {BrowserRouter, Routes,Route} from 'react-router-dom'
 import Details from './Details'
 export const Darkmodecontext  = createContext([]);
-let modeData = localStorage.getItem('modeData') || 0;
+let modeData = localStorage.getItem('modeData') || 1;
 
 function App() {
 

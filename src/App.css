@@ -27,6 +27,7 @@ a {
 
 body {
   margin: 0px;
+  background-color: hsl(0, 0%, 98%);
 }
 header {
   width: 99vw;

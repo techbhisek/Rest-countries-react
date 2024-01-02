@@ -29,14 +29,6 @@ body {
   margin: 0px;
   background-color: hsl(0, 0%, 98%);
 }
-header {
-  width: 99vw;
-  display: flex;
-  justify-content: space-between;
-  margin: 0px auto;
-  box-sizing: border-box;
-  padding: 20px 100px;
-}
 #filter-section {
   width: 100vw;
   display: flex;
@@ -187,8 +179,8 @@ select:focus {
   width: 90vw;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px 150px;
-  justify-content: flex-start;
+  justify-content: start;
+  gap: 50px 30px;
   margin: 0px auto;
   box-sizing: border-box;
 }

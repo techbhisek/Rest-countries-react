@@ -3,7 +3,7 @@ import { useState,useEffect,useContext} from "react"
 import { Link} from "react-router-dom"
 import { useParams} from "react-router-dom";
 import DetailsLoader from './DetailsLoader'
-import { Darkmodecontext } from "./App";
+import { Darkmodecontext } from "../App";
 import ButtonGenerator from "./ButtonGeneratir";
 export default function Details()
 

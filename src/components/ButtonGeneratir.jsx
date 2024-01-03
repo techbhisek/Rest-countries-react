@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import { useEffect,useState ,useContext} from "react";
 import { Link } from "react-router-dom";
-import { Darkmodecontext } from "./App";
+import { Darkmodecontext } from "../App";
 export default function ButtonGenerator({cca3})
 {
   const {mode} = useContext(Darkmodecontext);

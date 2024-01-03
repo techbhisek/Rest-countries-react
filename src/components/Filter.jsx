@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useContext} from "react"
 import Options from "./Options";
-import { Darkmodecontext } from "./App";
+import { Darkmodecontext } from "../App";
 
 
 

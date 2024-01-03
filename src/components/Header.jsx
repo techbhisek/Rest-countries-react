@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { useContext } from "react";
-import { Darkmodecontext } from "./App";
+import { Darkmodecontext } from "../App";
 
 export default function Header()
 {

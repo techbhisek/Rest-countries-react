@@ -1,10 +1,10 @@
 import './App.css'
-import Header from './Header'
+import Header from './components/Header'
 import { useState } from 'react'
-import Container from './Container'
+import Container from './components/Container'
 import { createContext } from "react"
 import  { Routes,Route,HashRouter as Router} from 'react-router-dom'
-import Details from './Details'
+import Details from './components/Details'
 import { Link } from 'react-router-dom'
 export const Darkmodecontext  = createContext([]);
 let modeData = localStorage.getItem('modeData') || 1;
@@ -38,7 +38,7 @@ function App() {
  <Route path='*' element={
     <h1 className={"no-country-found  " + mode.bodyMode} style={{display:"flex",flexDirection:"column" ,alignItems:'center' , rowGap:'50px'}}> 404 PAGE NOT FOUND <br /> <Link to="/" ><button  onClick={()=>{
       setError('');
-   }} className={"back" + mode.elementMode} style={{margin:'0px auto'}}>HOME</button></Link></h1>
+   }} className={"back" + mode.elementMode}  style={{margin:'0px auto'}}>HOME</button></Link></h1>
  } />
     </Routes>  
     </Darkmodecontext.Provider>

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useEffect,useContext,createContext, useState} from "react"
-import { Darkmodecontext } from "./App";
+import { Darkmodecontext } from "../App";
 import {Cards} from "./Cards";
 import Filter from "./Filter";
 import Loader from "./Loader";
